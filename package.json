@@ -1,0 +1,17 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "This bot is simply disgusting",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Laurynas Minelga",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "tmi.js": "^1.5.0"
+  }
+}

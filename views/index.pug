@@ -1,0 +1,21 @@
+doctype html 
+html
+	head
+		title=title
+		meta(name='viewport' content='windth=device-width, initial-scale=1')
+	body
+		.wrap
+			.profile.hide(style='background-image: url(' + bgImage + ');')
+				a(href='#').menu
+			.information
+				h1.information__name 
+					small=firstname  
+					| #{lastname}
+				p.information__description= content				 
+				.breadcrumb
+					ul 
+						li 
+							a(href="charles") Charles Chaplin
+							a(href="marilyn") Marilyn Monroe
+							a(href="jean") Jean Simmons
+	script(src='js/script.js')
